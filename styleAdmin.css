@@ -1,0 +1,22 @@
+
+.renamedelpr{
+    display: flex;
+}
+
+.modal-content{
+    width: max-content;
+}
+
+.modal-body p{
+    display: flex;
+    flex-direction: column;
+}
+
+.renamedelpr button{
+    height: 25px;
+}
+
+.btns_productline{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,942 @@
+@font-face {
+    font-family: "rob";
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "yel";
+    src: url(/fonts/Yellowtail-Regular.ttf);
+}
+
+@font-face {
+    font-family: "os";
+    src: url(/fonts/OpenSans.ttf);
+}
+
+* {
+    margin: 0 auto;
+}
+
+
+body {
+    margin: 0;
+    font-family: "rob";
+    font-weight: 400;
+    color: #777777;
+    font-size: 1.8rem;
+}
+
+a {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    margin: 0;
+}
+
+div {
+    margin: 0;
+}
+
+section {
+    margin: 0;
+}
+
+button {
+    margin: 0;
+}
+
+form{
+    margin: 0;
+}
+
+.container {
+    width: 1480px;
+    margin: 0 auto;
+    scroll-behavior: smooth
+}
+
+/* ---header--- */
+
+.header {
+    width: 100%;
+}
+
+.sec_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 204px;
+    gap: 100px;
+}
+
+.logo_left {
+    display: flex;
+    gap: 3px;
+}
+
+
+.r70038 {
+    font-family: "rob";
+    font-size: 60px;
+    font-weight: 900;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+
+.head_link {
+    font-family: "rob";
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    transition: 0.2s solid;
+}
+
+.head_link:hover {
+    text-decoration: underline;
+}
+
+
+
+.center_sec {
+    display: flex;
+    gap: 30px;
+}
+
+.right_sec {
+    display: flex;
+    gap: 30px;
+}
+
+.d1 form {
+    position: relative;
+    width: 376px;
+    margin: 0 auto;
+}
+
+.d1 input {
+    width: 376px;
+    height: 66px;
+    padding-left: 10px;
+    border: 0px;
+    border-radius: 36px;
+    background: #FAFAFA;
+    color: #9E9C9C;
+    opacity: 50%;
+
+}
+
+.d1 button {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    width: 56px;
+    height: 56px;
+    border: none;
+    background: #7EB693;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cart_btn {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    padding: 0px 25px 0px 5px;
+    align-items: center;
+    width: 169px;
+    height: 66px;
+    background-color: #E0E0E0;
+    opacity: 50%;
+    border-radius: 50px;
+    border: 0px;
+    cursor: pointer;
+
+}
+
+.cart {
+    font-family: "rob";
+    font-size: 18px;
+    font-weight: 600;
+    color: #274C5B;
+}
+
+/*---SEC_TWO---*/
+
+.bg_two {
+    height: 80vh;
+    width: 100%;
+    background: url(/img/Shape.svg) center / cover no-repeat;
+}
+
+.sec_left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 530px;
+    height: 80vh;
+}
+
+.yel40036_four {
+    font-family: "yel";
+    font-size: 36px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.rob80070 {
+    font-family: "rob";
+    font-size: 70px;
+    font-weight: 800;
+    color: #000000;
+    width: 530px;
+}
+
+.yel_btn {
+    width: 220px;
+    height: 79px;
+    padding: 28px, 39px, 28px, 39px;
+    border: 0px;
+    border-radius: 16px;
+    gap: 10px;
+    background: #363531;
+}
+
+.yel_btn_a {
+    font-family: "rob";
+    font-size: 20px;
+    font-weight: 700;
+    color: #274C5B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.yel_btn_one {
+    width: 220px;
+    height: 79px;
+    padding: 28px, 39px, 28px, 39px;
+    border: 0px;
+    border-radius: 16px;
+    gap: 10px;
+    background: #EFD372;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 10px;
+    cursor: pointer;
+}
+
+/*----ThreeSec---*/
+
+.sec_three {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.left_img {
+    height: 367px;
+    width: 682px;
+    background: url(/img/web2.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.yel40036 {
+    font-family: "yel";
+    font-size: 36px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.rob40040 {
+    font-family: "rob";
+    font-size: 40px;
+    font-weight: 800;
+    color: #000000;
+    width: 277px;
+}
+
+.right_img {
+    height: 367px;
+    width: 682px;
+    background: url(/img/web2.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.three_img {
+    height: 367px;
+    width: 682px;
+    background: url(/img/web2.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.four_img {
+    height: 367px;
+    width: 682px;
+    background: url(/img/web2.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.yel40036_two {
+    font-family: "yel";
+    font-size: 36px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.rob40040_two {
+    font-family: "rob";
+    font-size: 40px;
+    font-weight: 800;
+    color: #000000;
+    width: 277px;
+}
+
+.text_in_img {
+    padding-left: 30px;
+}
+
+/*----ThreeSec----*/
+
+.bg_three {
+    background: #F9F8F8;
+    width: 100%;
+    height: 1067px;
+    z-index: 1;
+}
+
+.right_text_three_sec {
+    width: 702px;
+    height: 682px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 46px;
+}
+
+.textik {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.two_boxex_text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.all_right {
+    height: 1067px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+
+}
+
+.boxes {
+    display: flex;
+    gap: 19px;
+}
+
+.text_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}
+
+.rob80025 {
+    font-family: "rob";
+    font-size: 25px;
+    font-weight: 800;
+    color: #274C5B;
+}
+
+.rob80050 {
+    font-family: "rob";
+    font-size: 50px;
+    font-weight: 800;
+    color: #274C5B;
+}
+
+.os40018_three {
+    font-family: "os";
+    font-size: 18px;
+    font-weight: 400;
+    color: #274C5B;
+    width: 444px;
+}
+
+.gray_btn {
+    width: 220px;
+    height: 79px;
+    padding: 28px, 39px, 28px, 39px;
+    border: 0px;
+    border-radius: 16px;
+    gap: 10px;
+    background: #274C5B;
+    transition: 0.2s linear;
+}
+
+.gray_btn:hover {
+    background: #ffffff;
+    border: 1px #274C5B solid;
+}
+
+.gray_btn_a {
+    font-family: "rob";
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.about {
+    position: absolute;
+    z-index: 1;
+    transform: translate(-12%);
+}
+
+/*---Sec_four---*/
+.sec_four {
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Vegetables {
+    width: 335.09px;
+    height: 483px;
+    background-color: #F9F8F8;
+    border: 0px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    padding-top: 20px;
+}
+
+.btn_veg {
+    display: flex;
+    padding: 5px 12px 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 0px;
+    border-radius: 8px;
+    background: #274C5B;
+    transition: 0.2s linear;
+}
+
+.btn_veg:hover {
+    background: #ffffff;
+    border: 1px solid #274C5B;
+}
+
+.a_veg {
+    font-family: "os";
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.a_veg:hover {
+    color: #274C5B;
+}
+
+.veg_img {
+    background-blend-mode: multiply;
+    height: 324px;
+    width: 335px;
+}
+
+.text_under {
+    display: flex;
+    justify-content: start;
+    width: 274px;
+}
+
+.text_under_three{
+    display: flex;
+    justify-content: start;  
+}
+
+.line {
+    width: 274px;
+    height: 1px;
+    background-color: #DEDDDD;
+}
+
+.price_star {
+    display: flex;
+    gap: 81px;
+}
+
+.price {
+    display: flex;
+    gap: 7px;
+}
+
+.rob20700 {
+    font-family: "rob";
+    font-size: 20px;
+    font-weight: 700;
+    color: #000f15;
+    transition: 0.2s linear;
+}
+
+.rob20700:hover{
+    color: #406675;
+}
+
+
+
+
+.rob20700_two {
+    font-family: "rob";
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    transition: 0.2s linear;
+}
+
+.rob20700_two:hover {
+    color: #274C5B;
+}
+
+.rob20700_two_exp {
+    font-family: "rob";
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    transition: 0.2s linear;
+}
+
+.rob20700_two:hover {
+    color: #274C5B;
+}
+
+.os60015 {
+    font-family: "os";
+    font-size: 15px;
+    font-weight: 600;
+    color: #B8B8B8;
+    text-decoration: line-through;
+}
+
+.os60018 {
+    font-family: "os";
+    font-size: 18px;
+    font-weight: 600;
+    color: #274C5B;
+}
+
+.up_down_boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.two_boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20.09px;
+}
+
+/*---Sex_five---*/
+
+.bg_four {
+    width: Hug (1, 920px);
+    height: Hug (957px);
+    top: 4508px;
+    left: 10px;
+    padding: 187px, 0px, 187px, 0px;
+    background: #F1F8F4;
+}
+
+.three_boxes_f {
+    display: flex;
+    padding: 187px 0px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.wbtn {
+    width:320px;
+    height:96px;
+    top: 244px;
+    border-radius: 20px;
+    border: 0px;
+    transition: 0.2s linear;
+}
+
+.wbtn:hover{
+ background-color: #274C5B;
+}
+
+.rob50025 {
+    font-family: "rob";
+    font-size: 25px;
+    font-weight: 700;
+    color: #274C5B;
+    transition: 0.2s linear;
+}
+
+.rob50025:hover{
+    color: #ffffff;
+}
+
+.one_box {
+    background: url(/img/trap.jpg), center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 612px;
+    height: 583px;
+}
+
+.two_box {
+    background: url(/img/18.jpg), center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 612px;
+    height: 583px;
+}
+
+.three_box {
+    background: url(/img/WEB.jpg), center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 612px;
+    height: 583px;
+}
+
+/*---sec_six---*/
+
+.bg_last{
+    background: url(/img/web3.jpg), center / cover no-repeat;
+    width: 1400px;
+    height: 323px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 326px;
+}
+
+.rob80050_two{
+    font-family: "rob";
+    font-size: 50px;
+    font-weight: 700;
+    color: #4e6670; 
+    width: 357px; 
+}
+
+.form_foot{
+    display: flex;
+    gap: 40px;
+}
+
+.form_foot form{
+    width: 349px;
+height: 80px;
+border-radius: 16px;
+border: 0;
+background: #FFF;
+}
+
+.form_foot input{
+    width: 349px;
+    height: 80px;
+    border-radius: 16px;
+    border: 0;
+    background: #FFF;
+    padding-left: 23px;
+    font-family: "rob";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.sec_last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sec_last_two{
+    display: flex;
+    gap: 47px;
+    margin-top: 100px;
+    height: 550px;
+}
+
+.line_height{
+    height: 366px;
+    width: 1px;
+    background-color: #d4d4d4;
+}
+
+.icons_message{
+    display: flex;
+    gap: 15px;
+}
+
+.left_sec {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 32px;
+}
+
+.rob70030 {
+    font-family: "rob";
+    font-size: 30px;
+    font-weight: 700;
+    color: #274C5B;
+}
+
+.box_foot {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.text_foot {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.os60018 {
+    font-family: "os";
+    font-size: 18px;
+    font-weight: 600;
+    color: #525C60;
+}
+
+.os40018{
+    font-family: "os";
+    font-size: 18px;
+    font-weight: 600;
+    color: #525C60;
+    transition: 0.2s solid;
+}
+
+.os40018:hover{
+    text-decoration: underline;
+}
+
+
+
+.os40018_two {
+    font-family: "os";
+    font-size: 18px;
+    font-weight: 600;
+    color: #525C60;
+    width: 543px;
+    text-align: center;
+}
+
+.os40018_five{
+    font-family: "os";
+    font-size: 18px;
+    font-weight: 600;
+    color: #525C60;
+    width: 690px;  
+}
+
+.logo_text_f{
+    display: flex;
+    flex-direction: column;
+    gap: 26.36px;
+}
+
+.center_foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 49px;
+}
+.logo_foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.rob70038 {
+    font-family: "rob";
+    font-size: 38px;
+    font-weight: 700;
+    color: #274C5B; 
+}
+.icons_message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right_sec_foot {
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+.text_under_two {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: left;
+}
+
+.line_vert{
+    width: 100%;
+    height: 1px;
+    background-color: #D4D4D4;
+}
+
+.last_word{
+    font-family: "os";
+    font-size: 18px;
+    font-weight: 600;
+    color: #525C60;
+}
+
+.last_word_two{
+    font-family: "os";
+    font-size: 18px;
+    font-weight: 700;
+    color: #525C60;
+}
+
+.copy{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+/*--ACCOUNT--*/
+
+.img_profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0px;
+}
+
+/*--Singleshop---*/
+
+
+.bg_shop_single {
+    background: url(/img/web3.jpg);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ss{
+    font-size: 82px;
+    font-weight: 900;
+    color: #274C5B;
+}
+
+.renamedelpr button{
+    height: 20px;
+}
+
+.go-top {
+    display: none;
+    cursor: pointer;
+}
+.active--show {
+    display: flex;
+    cursor: pointer;
+
+}
+
+.sec_three {
+    margin-top: 160px; 
+    width: 1000px
+}
+form {
+    width: 90vw;
+    max-width: 20em;
+  }
+  ​
+  button {
+    margin-top: 2rem;
+  }
+  ​
+  input {
+    border: 1px solid;
+    padding: 0.3em;
+    width: 100%;
+  }
+  ​
+  label {
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  ​
+  .date-code {
+    display: flex;
+    margin: 0 -1em;
+  }
+  ​
+  .date-code div {
+    margin: 0 1em;
+  }

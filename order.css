@@ -1,0 +1,9 @@
+.sostavOrder { 
+    display: flex; 
+    flex-flow: row wrap; 
+    gap: 20px; 
+    padding-bottom: 30px; 
+} 
+#textSostav { 
+    padding-top: 10px; 
+} 

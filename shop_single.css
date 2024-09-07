@@ -1,0 +1,143 @@
+/*---Shop single---*/
+
+.products_cart{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    gap: 30px;
+    }
+    
+    .up_right_shop{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .name_prosuct{
+        font-size: 40px;
+        font-weight: 600;
+        color: #274C5B;
+    }
+    
+    .stars{
+        width: 84px;
+        height: 18px;
+    }
+    
+    .amount_prosucts{
+        display: flex;
+    }
+    
+    .right_side_shop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .shop_single_img{
+        height: 591px;
+        width: 563px;
+        border: 1px lightblue solid;
+        border-radius: 35px;
+    }
+    
+    .btn_veg_two {
+        display: flex;
+        padding: 5px 12px 6px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: 0px;
+        border-radius: 8px;
+        background: #274C5B;
+        transition: 0.2s linear;
+        position: absolute;
+        transform: translate();
+    }
+    
+    .btn_veg_two:hover {
+        background: #ffffff;
+        border: 1px solid #274C5B;
+    }
+    
+    .a_veg_two {
+        font-family: "os";
+        font-size: 15px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+    
+    .a_veg_two:hover {
+        color: #274C5B;
+    }
+    
+    .amount_prosucts{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    }
+    
+    .os60015_two {
+        font-family: "os";
+        font-size: 20px;
+        font-weight: 600;
+        color: #B8B8B8;
+        text-decoration: line-through;
+    }
+    
+    .os60018_two {
+        font-family: "os";
+        font-size: 25px;
+        font-weight: 700;
+        color: #274C5B;
+    }
+    
+    .os40018_shop{
+        font-family: os;
+        width: 658px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    
+    .btn_cart{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    .btn_cart input{
+        margin: 0px;
+        width: 134px;
+        height: 80px;
+        border: 2px #274C5B solid;
+        border-radius: 16px;
+        text-align: center;
+        border-radius: 16px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .btn_cart button{
+        width: 218px;
+        height: 80px;
+        background-color: #274C5B;
+        border-radius: 16px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 13px;
+    }
+    
+    .rob70020{
+    font-size: 20px;
+    font-weight: 700;
+    color: #274C5B;
+    }

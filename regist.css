@@ -1,0 +1,266 @@
+@font-face {
+    font-family: "rob";
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "yel";
+    src: url(/fonts/Yellowtail-Regular.ttf);
+}
+
+@font-face {
+    font-family: "os";
+    src: url(/fonts/OpenSans.ttf);
+}
+
+* {
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    font-family: "rob";
+    font-weight: 400;
+    color: #777777;
+    font-size: 1.8rem;
+}
+
+a {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    margin: 0;
+}
+
+div {
+    margin: 0;
+}
+
+section {
+    margin: 0;
+}
+
+button {
+    margin: 0;
+}
+
+form{
+    margin: 0;
+}
+
+.container {
+    width: 1480px;
+    margin: 0 auto;
+}
+
+/* ---header--- */
+
+.header {
+    width: 100%;
+}
+
+.sec_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 204px;
+    gap: 100px;
+}
+
+.logo_left {
+    display: flex;
+    gap: 3px;
+}
+
+
+.r70038 {
+    font-family: "rob";
+    font-size: 38px;
+    font-weight: 700;
+    color: #274C5B;
+}
+
+
+.head_link {
+    font-family: "rob";
+    font-size: 20px;
+    font-weight: 700;
+    color: #274C5B;
+    transition: 0.2s solid;
+}
+
+.head_link:hover {
+    text-decoration: underline;
+}
+
+
+
+.center_sec {
+    display: flex;
+    gap: 30px;
+}
+
+.right_sec {
+    display: flex;
+    gap: 30px;
+}
+
+.d1 form {
+    position: relative;
+    width: 376px;
+    margin: 0 auto;
+}
+
+.d1 input {
+    width: 376px;
+    height: 66px;
+    padding-left: 10px;
+    border: 0px;
+    border-radius: 36px;
+    background: #FAFAFA;
+    color: #9E9C9C;
+    opacity: 50%;
+
+}
+
+.d1 button {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    width: 56px;
+    height: 56px;
+    border: none;
+    background: #7EB693;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cart_btn {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    padding: 0px 25px 0px 5px;
+    align-items: center;
+    width: 169px;
+    height: 66px;
+    background-color: #E0E0E0;
+    opacity: 50%;
+    border-radius: 50px;
+    border: 0px;
+    cursor: pointer;
+
+}
+
+.cart {
+    font-family: "rob";
+    font-size: 18px;
+    font-weight: 600;
+    color: #274C5B;
+}
+
+/*---reg---*/
+
+.fomrs form{
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+
+.hern{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.height{
+    height: 1000px;
+    width: 100%;
+}
+
+.fomrs{
+    width: 500px;
+    height: 835px;
+    border: 0px;
+    border-radius: 70px;
+    background-color: #e1ecf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fomrs input{
+    width: 300px;
+    height: 59px;
+    border-radius: 20px;
+    border: 0px;
+    border-bottom: 1px solid ;
+    padding: 0px 10px 0px 10px;
+}
+.fomrs input[type='file']{
+    width: 300px;
+    height: 59px;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.fomrs form{
+display: flex;
+flex-direction: column;
+margin: 0;
+gap: 30px;
+}
+
+.fname {
+    font-size: 24px;
+    font-weight: 700;
+    color: #274C5B;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.regost{
+    font-size: 36px;
+    font-weight: 700;
+    color: #274C5B;
+}
+
+.next_button{
+    font-family: rob;
+    font-size: 15px;
+    font-weight: 700;
+    color: #7EB693;
+    background-color: #fff;
+    width: 170px;
+    height: 60px;
+    border-radius: 30px;
+    border: 0px;
+    cursor: pointer;
+}
